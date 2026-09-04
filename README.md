@@ -1,1 +1,2 @@
 # UART-Communication-Interfacee
+I designed a parameterized UART communication interface in Verilog supporting 9600-baud transmission and reception from a 100 MHz system clock. I implemented independent transmitter and receiver FSMs with start, 8-bit data, and stop-bit sequencing, along with baud-rate generation and 16× receiver oversampling. I integrated the TX and RX modules in a loopback architecture and developed a self-checking Verilog testbench using tasks and stimulus to verify byte transmission and reception across different transactions.
